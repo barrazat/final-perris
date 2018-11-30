@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/gallery-style.css">
+    <link rel="stylesheet" href="css/menu-style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/signup-style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" media="screen and (max-width:775px)" href="css/phone.css">
+    <title>Mis Perris</title>
+</head>
+<body>
+        
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Quienes somos</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="gallery.html">Galeria</a></li>
+            <li><a href="signup.html">Entrar</a></li>
+            <li id="search-rigth"><input id="search-in" type="text" placeholder="Buscar..."></li>
+          </ul>
+    </nav>
+    <div class="gallery-container">
+        <header class="header-gallery">
+            <h1 class="h1gal">Galería</h1>
+        </header>
+        <br>
+        <!--Combobox-->
+        <div class="filterContainer">
+            <h3>Filtros</h3>
+            <select id="estadoPerro" class="estadoPerro">
+                <option value="Adoptado">Adoptado</option>
+                <option value="Disponible">Disponible</option>
+                <option value="Rescatado">Rescatado</option>
+            </select>
+        </div>
+        
+        <div class="galeria" id="galeria">
+            <!--Contenedores de perro-->
+            <figure class="perroContainer" id="perroContainer">
+
+            </figure>
+        </div>
+    </div>
+    <footer>
+        <table class="foot-box">
+            <tr>
+                <td>Email</td>
+                <td>
+                    <a href="mailto:misperris@misperris.com">
+                        misperris@misperris.com
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>Teléfono</td>
+                <td>
+                    <a href="tel:+569123456789">
+                        +56 123456789
+                    </a>
+                </td>
+            </tr>
+        </table>
+
+        <table class="foot-box">
+            <tr>
+                <td>Dirección</td>
+                <td>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2352.261529953386!2d-70.75238091284422!3d-33.51177855973648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dcd1fe0c7bab%3A0x4d17b82a7ba77488!2sDuoc+UC%3A+Sede+Maipu!5e0!3m2!1ses-419!2scl!4v1535071987531" id = "maps" allowfullscreen></iframe></td>
+            </tr>
+        </table>
+        <p id="horse">&copy; Todos los derechos reservados - Caballo 69</p>
+    </footer>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/dogges.js"></script>
+</body>
+</html>
